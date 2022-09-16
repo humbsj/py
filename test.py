@@ -5,9 +5,9 @@
 #message_type=type(message) 
 
 #FUNCTION DECLARATION
-def welcome_message(number,message):
-    txt= str(number)+(" ")+message
-    print(txt)
+#def welcome_message(number,message):
+#   txt= str(number)+(" ")+message
+#   print(txt)
 
 #welcome_message(1,"hi there, I am the first function of Humberto :D")
 
@@ -28,12 +28,13 @@ def error():
     
         
 def count(n):
-        if n ==0:
-            welcome_message(1,"Hi, This is the first time i am using recursive programming stuff in python")
-        else:
-            print(n)
-            count(n-1)
-
+    while (n>0):
+        print(n)
+        count(n-1)
+        break;     
+    else:      
+        print("Hi, This is the first time i am using recursive programming stuff in python")
+        
 def validation(inp):
     if (inp>0):
         count(inp)
