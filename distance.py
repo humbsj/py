@@ -24,13 +24,21 @@ def doyouneedmore(dyn):
     elif(dyn == "N"):
         print("Thanks for using this simple programm")
 
-def errornegative():
-    print("Valor debe ser mayor a 0")
+def message():
     x1i = int(input("ingrese numero x1:"))
     y1i = int(input("ingrese numero y1:"))
     x2i = int(input("ingrese numero x2:"))
     y2i = int(input("ingrese numero y2:"))
     validation_positive(x1i,y1i,x2i,y2i)
+
+def errornegative():
+    print("Valor debe ser mayor a 0")
+    message()
+    #x1i = int(input("ingrese numero x1:"))
+    #y1i = int(input("ingrese numero y1:"))
+    #x2i = int(input("ingrese numero x2:"))
+    #y2i = int(input("ingrese numero y2:"))
+    #validation_positive(x1i,y1i,x2i,y2i)
     #no es necesario doyouneedmore(). 
     #Al terminar la función "validation" no existe un valor para el 
     #parámetro que pide doyouneedmore(). 
