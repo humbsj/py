@@ -32,7 +32,9 @@ def error():
     y2i = int(input("ingrese numero y2:"))
     validation(x1i,y1i,x2i,y2i)
     #no es necesario doyouneedmore(). 
-    #Al terminar la función "validation" no existe un valor para el parámetro que pide doyouneedmore(). Es por eso que el error indica que falta un "dyn"
+    #Al terminar la función "validation" no existe un valor para el 
+    #parámetro que pide doyouneedmore(). 
+    #Es por eso que el error indica que falta un "dyn"
 
 def validation (x1, y1, x2, y2):
         if(x1>0 and y1>0 and x2>0 and y2>0):
