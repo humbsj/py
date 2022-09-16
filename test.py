@@ -20,11 +20,16 @@ def doyouneedmore(dyn):
         elif(dyn == "N"):
             print("Thanks for using this simple programm")
 
+def message():
+    input_n = int(input("Choose how many times the message will appear: "))
+    validation(input_n)
+
 def error():
     print("The number must be >0...")
     #int(input("Choose how many times the message will appear:"))
-    input_n = int(input("Choose how many times the message will appear: "))
-    validation(input_n)
+    #input_n = int(input("Choose how many times the message will appear: "))
+    #validation(input_n)
+    message()
     
         
 def count(n):
