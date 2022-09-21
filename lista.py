@@ -1,6 +1,6 @@
 #funciones
 
-def lista(x,y,z,v):
+def lista(lista):
     lista = [x,y,z,v]
     i=0
     while i < len(lista):
@@ -12,4 +12,4 @@ x = input("Pon valor a: ")
 y = input("Pon valor y: ")
 z = input("Pon valor z: ")
 v = input("Pon valor v: ")
-lista(x,y,z,v)
+lista(lista) 
